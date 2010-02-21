@@ -1,0 +1,25 @@
+<b>cloudy</b> v0.2<br>
+Author: Krystian Koscielniak (ian992/carmaris)<br>
+Date: 21.02.2010<br><br>
+<b>What?</b><br>
+With cloudy you can easily create cloud of your favourite artists on your last.fm profile. Cloudy generates BB-Code, which you can paste in your profile's about box.<br><br>
+<b>Requirements? </b><br>
+You'll need Ruby 1.8 and <i>xml-simple</i> gem. If you have RubyGems just type in terminal:<br>
+<code>$ gem install xml-simple</code><br><br>
+<b>How to use?</b> <br>
+To generate BB-Code you have to get to script's directory and run this command in your shell:<br>
+<code>$ ruby cloudy.rb [user] [options]</code><br>
+where <code>[user]</code> is your username. For example:<br>
+<code>$ ruby cloudy.rb ian992</code><br>
+will generate cloud from ian992's data, and save it's code as <i>ian992_cloudy.txt</i>. You can specify an output filename by using <code>-o</code> option. For example:<br>
+<code>$ ruby cloudy.rb ian992 -o output.txt</code><br>
+will generate cloud and save it's code as <i>output.txt</i>. If you want to specify how many artists has cloudy to save in file you should use <code>-c</code> option. For e.g:<br>
+<code>$ ruby cloudy.rb ian992 -c 5</code><br>
+will generate code containg only 5 artists. The counter can't be less than 1 and more than 50. You can also select time range that cloudy should use. It can be: 0 for overall statistics, 7 for one week, 3/6/12 for months. Default value is 0. To specify this you have to use <code>-d</code> option. E.g:<br>
+<code>$ ruby cloudy.rb ian992 -c 5 -d 7</code><br>
+will generate code of cloud containing most played artists from last week. The last option is <code>-r</code>. This will mix the items in the cloud:<br>
+<code>$ ruby cloudy.rb ian992 -c 5 -d 7 -r</code><br>It's simple, isn't it?<br><br>
+
+<b>Why I made it? </b> In case of Ruby learning. I just began to learn this. <br>
+<b>Copyright?</b> No, copyleft. Definitely.<br>
+<b>Something else? </b> Check out my last.fm <a href='http://last.fm/user/ian992'>profile</a>!
