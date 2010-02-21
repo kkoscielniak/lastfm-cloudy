@@ -1,16 +1,16 @@
 cloudy
 ======
-**Version:** 0.2
-**Author:** Krystian Kościelniak
-**Date:** 21.02.2010
-
-**What?**
+**Version:** 0.2  
+**Author:** Krystian Kościelniak  
+**Date:** 21.02.2010  
+  
+**What?**  
 With cloudy you can easily create cloud of your favourite artists on your last.fm profile. cloudy generates BB-Code, which you can paste in your profile's about box.
 
-**Requirements?**
+**Requirements?**  
 You'll need Ruby 1.8 and *xml-simple* gem. If you have RubyGems just type in terminal:
 	$ gem install xml-simple
-**How to use?**
+**How to use?**  
 To generate BB-Code you have to get to script's directory and run this command in your shell:
 	$ ruby cloudy.rb [user] [options]
 where `[user]` is your username. Options are optional, i'll explain them later. For example:
@@ -24,8 +24,8 @@ will generate code containg only 5 artists. The counter can't be less than 1 and
 will generate code of cloud containing most played artists from last week. The last option is `-r`. This will mix the items in the cloud:
 	$ ruby cloudy.rb ian992 -c 5 -d 7 -r
 
-It's **simple**, isn't it?
+It's **simple**, isn't it?  
 
-**Why I made it?** In case of Ruby learning. I just began to learn this. 
-**Copyright?** No, copyleft. Definitely.
+**Why I made it?** In case of Ruby learning. I just began to learn this.   
+**Copyright?** No, copyleft. Definitely.  
 **Something else?** See you at my last.fm [profile](http://last.fm/user/ian992)!
