@@ -90,7 +90,7 @@ class TagCloud
 			randomize if @random
 			@output_data.each_line { |line| line.delete('\n') }
 			file.puts @output_data
-			file.puts "[/align][/b][align=center][sup]Made with [user]ian992[/user]'s [url=http://github.com/carmaris/cloudy]cloudy[/url]\\m/ [/sup][/align]"
+			file.puts "[/align][/b][align=center][sup]Made with [user]ian992[/user]'s [url=http://github.com/kryszan/cloudy]cloudy[/url]\\m/ [/sup][/align]"
 		end
 	end
 end
