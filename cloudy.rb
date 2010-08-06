@@ -1,8 +1,8 @@
-#	Project: lastfm/cloudy
-#	Version: 0.2
-#	Date: 21.02.2010
-#	Author: Krystian Koscielniak (ian992/carmaris)
-#	Summary: With cloudy you can easily create cloud of your favourite artists on your last.fm profile.
+#	lastfm-cloudy
+#	21.02.2010
+#	by Krystian Koscielniak (kryszan)
+#	
+#	With cloudy you can easily create cloud of your favourite artists on your last.fm profile.
 
 require File.expand_path(File.dirname(__FILE__) + "/lib/cloudy.rb")
 require "optparse"
@@ -55,8 +55,8 @@ end
 end
 
 puts
-puts "cloudy v" + version.to_s + " by ian992."
-puts "koscielniak.krystian@gmail.com"
+puts "cloudy v" + version.to_s + " kryszanek"
+puts "k.koscielniak@hotmail.com"
 puts
 @cloud = TagCloud.new(options[:user], 
 	options[:date].to_i, 
