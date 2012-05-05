@@ -8,6 +8,7 @@ With cloudy you can easily create cloud of your favourite artists on your last.f
 **Requirements?**  
 You'll need Ruby 1.8 and *xml-simple* gem. If you have RubyGems just type in terminal:  
 	$ gem install xml-simple  
+	  
 **How to use?**  
 To generate BB-Code you have to get to script's directory and run this command in your shell:  
 	$ ruby cloudy.rb [user] [options]  
