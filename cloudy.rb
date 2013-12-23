@@ -56,7 +56,7 @@ end
 
 puts
 puts "cloudy v" + version.to_s + " kryszanek"
-puts "k.koscielniak@hotmail.com"
+puts "krystiankoscielniak@gmail.com"
 puts
 @cloud = TagCloud.new(options[:user], 
 	options[:date].to_i, 
